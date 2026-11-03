@@ -7,4 +7,9 @@ public class EvenCheckerTest {
     void shouldReturnTrueForEvenNumber() {
         assertTrue(EvenChecker.isEven(4));
     }
+
+    @Test
+    void shouldReturnFalseForOddNumber() {
+        assertFalse(EvenChecker.isEven(5));
+    }
 }
