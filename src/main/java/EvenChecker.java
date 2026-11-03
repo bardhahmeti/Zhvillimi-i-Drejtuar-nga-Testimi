@@ -1,6 +1,6 @@
 public class EvenChecker {
 
     public static boolean isEven(int number) {
-        return false;
+        return number % 2 == 0;
     }
 }
